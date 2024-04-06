@@ -1,1 +1,1 @@
-web: gunicorn djangodeploy.wsgi
+web: python manage.py collectstatic && gunicorn djangodeploy.wsgi
