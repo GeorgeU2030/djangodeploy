@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "tasks",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -121,4 +123,4 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-ALLOWED_HOSTS = ["web-production-0f9f.up.railway.app"]
+ALLOWED_HOSTS = ["127.0.0.1","web-production-0f9f.up.railway.app",]
